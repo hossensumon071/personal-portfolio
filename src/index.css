@@ -32,3 +32,12 @@ body{
   letter-spacing: 2px;
   word-spacing: 3px;
 }
+
+
+/* ============== hero area start =============== */
+.hero-img{
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+/* ============== hero area end ================= */
