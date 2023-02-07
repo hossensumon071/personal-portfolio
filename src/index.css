@@ -74,7 +74,8 @@ body{
 .hero{
   position: relative;
 }
-.hero-img{
+.hero-img,
+.project-right{
   width: 500px;
   height: 500px;
   overflow: hidden;
@@ -120,3 +121,13 @@ body{
   right: -20%;
 }
 /* ============== hero area end ================= */
+
+
+/* ============== Project area Start ================= */
+.section-title{
+  font-family: "Cosi Azure", sans-serif;
+  font-size: 10rem;
+  line-height: 1;
+}
+/* ============== Project area end ================= */
+
