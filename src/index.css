@@ -32,9 +32,11 @@ body{
   letter-spacing: 2px;
   word-spacing: 3px;
 }
+
 .app{
   position: relative;
 }
+
 .noise{
   background-image: url('./assets/images/noise.gif');
   height: 100vh;
@@ -53,6 +55,7 @@ body{
 .link-item{
   position: relative;
 }
+
 .link-item::after{
   content: "";
   background-color: var(--color-light);
@@ -64,6 +67,7 @@ body{
   transform: translateX(-50%);
   transition: 0.5s;
 }
+
 .link-item:hover::after{
   width: 100%;
 }
@@ -74,22 +78,26 @@ body{
 .hero{
   position: relative;
 }
+
 .hero-img,
 .project-right{
   width: 500px;
   height: 500px;
   overflow: hidden;
 }
+
 .shutter{
   position: absolute;
   z-index: 100;
   font-family: "Cosi Azure", sans-serif;
   font-size: 10rem;
 }
+
 .shutter-left {
   top: 0;
   left: 0;
 }
+
 .shutter-right{
   right: 0;
   bottom: 0;
@@ -116,6 +124,7 @@ body{
   top: -40%;
   left: -20%;
 }
+
 .circle-right {
   bottom: -40%;
   right: -20%;
@@ -130,4 +139,35 @@ body{
   line-height: 1;
 }
 /* ============== Project area end ================= */
+
+
+/* ============== Skill area start ================= */
+.skill-item{
+  position: relative;
+}
+
+.skill-item::before, .skill-item::after{
+  content: "";
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-light);
+}
+
+.skill-item::before{
+  width: 100%;
+  opacity: 0.2;
+}
+
+.skill-item::after{
+  width: 0;
+  background-color: #22d3ee;
+  transition: 0.5s;
+}
+
+.skill-item:hover::after{
+  width: 100%;
+}
+/* ============== Skill area end ================= */
 
